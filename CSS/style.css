@@ -1,0 +1,42 @@
+
+
+#navbarNav{
+    justify-content: space-between;
+}
+.navbar-expand-lg{
+    position: fixed !important;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-nav{
+    gap: 2em;
+}
+
+.nav-link{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.nav-link:hover{
+    color: hsla(0, 0%, 100%, 90) !important;
+    transform: scale(1.2) !important;
+    transition: all .5s ease-in;
+}
+
+.icon-hover:hover{
+    color: hsla(0, 0%, 100%, 90) !important;
+    transform: scale(2) !important;
+    transition: all .5s ease-in !important;
+    color: black !important;
+}
+
+.carousel-item{
+    max-height: 70vh;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    margin: 0 auto;
+}
