@@ -3,11 +3,11 @@
 #navbarNav{
     justify-content: space-between;
 }
-/* .navbar-expand-lg{
-    position: fixed !important;
+.navbar-expand-lg{
+    position: sticky !important;
     top: 0;
     z-index: 1000;
-} */
+}
 
 .navbar-nav{
     gap: 2em;
