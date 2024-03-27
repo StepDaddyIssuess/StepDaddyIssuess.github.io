@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 .navbar-expand-lg{
-    position: fixed !important;
+    position: sticky !important;
     top: 0;
     z-index: 1000;
 }
