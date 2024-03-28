@@ -48,7 +48,7 @@
               <a class="nav-link" href="#carouselExampleIndicators">My Project's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact me</a>
+              <a class="nav-link" href="#contact">Contact me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About me</a>
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="image">
-          <img src="/Images/StepDaddyIssues.png" height="500" width="500">
+          <img class="img"  src="/Images/StepDaddyIssues.png" height="500" width="500">
         </div>
       </div>
     </header>
@@ -135,7 +135,31 @@
     </main>
 
     <section>
+      <form class="container mt-5" style="width: 26rem;">
+        <!-- Name input -->
+        <div class="subtitle" id="contact">
+          <h3 class="project-title">Contact me</h3>
+        </div>
+        <div data-mdb-input-init class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
       
+        <!-- Email input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+      
+        <!-- Message input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+        </div>
+
+      <a data-mdb-ripple-init href = "mailto: kyano.debeuckelaere12@gmail.com" class="btn btn-primary btn-block mb-4">Send</a>
+      </form>
     </section>
 
 
